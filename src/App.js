@@ -1,11 +1,18 @@
 import React, { Component } from 'react'
-import './App.css';
-import Todos from './components/Todos';
+import './style.css';
+// import Todo from './components/Todo';
+import Header from './components/Header';
+import Text from './components/Text'
+import Social from './components/Social';
 
 class App extends Component {
   render() {
     return (
-      <Todos />
+      <div className='container'>
+        <Header />
+        <Text />
+        <Social />
+      </div>
     );
   }
 }

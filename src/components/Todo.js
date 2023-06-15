@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class Todos extends Component {
+export default class Todo extends Component {
   render() {
     return (
       <h1>My project</h1>

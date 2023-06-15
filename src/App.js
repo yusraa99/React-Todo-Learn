@@ -7,6 +7,9 @@ import './style.css';
 import Team from './components2/Team'
 import Header from './components2/Header'
 
+// import Event from './component3/Events'
+
+
 class App extends Component {
   render() {
     return (
@@ -16,7 +19,7 @@ class App extends Component {
         <Social/> */}
         <Header/>
         <Team />
-
+        {/* <Event /> */}
 
       </div>
     );
